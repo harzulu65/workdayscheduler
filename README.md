@@ -2,7 +2,7 @@
 
 ## Note for the test of the Application
 
-When the aplication starts is going to take the time using momtn.js and follow to that it will check the time also with moment.js, the action rows which are the user notes for each hour will be available if the time is past the current hour, the app will not allow to make changes on actions already in the past hour. For testing it will be better to do it in the morning.
+When the aplication starts is going to take the time using moment.js and follow to that it will check the time also with moment.js, the action rows which are the user notes for each hour will be available if the time is past the current hour, the app will not allow to make changes on actions already in the past hour. For testing it will be better to do it in the morning.
 
 ## 05 Third-Party APIs: Work Day Scheduler
 
