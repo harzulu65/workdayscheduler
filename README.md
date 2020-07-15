@@ -1,5 +1,9 @@
 # Calendar
 
+## Note for the test of the Application
+
+When the aplication starts is going to take the time using momtn.js and follow to that it will check the time also with moment.js, the action rows which are the user notes for each hour will be available if the time is past the current hour, the app will not allow to make changes on actions already in the past hour. For testing it will be better to do it in the morning.
+
 ## 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -50,3 +54,13 @@ Adjustments took more than I expected, many options coming from the user input o
 ## Testing
 
 I suggest for testing, make sure that the Local Storage is empty, this will give a better impression on how the app works, if it has some data, it wouldn't be as testing it from scratch. I will try to make sure that the data in GitHub is empty.
+
+## Working the App
+
+The app will show all the times for the day from 8 AM up to 4 PM. I don't show 5 PM because that's the end of the worrking day, tecnically 4 O'Clock is the last hour of the day.
+
+The objective of the app is to show what is past what is present and what is future, for this, color white, red and light green show those options respectivelly.
+
+Anything that is present and future could be change, I mean, the date inside can be changed, everything that is past cannot.
+
+If changes are made in the present and future actions, the lock bottom will change to blue to signify that can be saved, if user clicks on that blue buttom the modified data will be stored in local storage, if the page is refreshed before it is saved that modified data will not be changed.
